@@ -1,0 +1,12 @@
+﻿body {
+	font-family: Bahnschrift Light Condensed;
+	font-style: italic;
+	background-color: lightcyan;
+}
+h1 {
+	font-family: Bahnschrift Light Condensed;
+	font-style: italic;
+}
+table, th, td {
+	border-style: solid;
+}
