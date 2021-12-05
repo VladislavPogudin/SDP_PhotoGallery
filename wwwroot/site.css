@@ -6,6 +6,7 @@
 h1 {
 	font-family: Bahnschrift Light Condensed;
 	font-style: italic;
+	width: 900px;
 }
 table, th, td {
 	border-style: solid;
@@ -18,7 +19,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-	border: 1px solid #777;
+	border: 1px solid;
 }
 
 div.gallery img {
@@ -26,7 +27,46 @@ div.gallery img {
 	height: auto;
 }
 
-div.desc {
-	padding: 15px;
-	text-align: center;
+.dropbtn {
+	background-color: #b200ff;
+	color: white;
+	font-size: 20px;
+	padding: 30px;
+	width: 450px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	width: 418px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #0094ff;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #ff00dc;
 }
